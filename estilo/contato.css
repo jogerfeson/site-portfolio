@@ -1,0 +1,56 @@
+
+form{
+    max-width: 50rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#titulocontato{
+    font-family: sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*configurando os inputs*/
+form input, form textarea{
+    width: 100%;
+    background-color: #272424;
+    border: 0;
+    outline: 0;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 20rem;
+}
+
+
+/*configurando o botao contato*/
+
+
+form .botaocontato{
+    margin-top: 2rem;
+    text-align: center;
+}
+form .botaocontato input{
+    width: 12rem; 
+    font-weight: 400;
+    color:#040404;
+}
+form .botaocontato input:hover{
+    width: 12rem;
+    background: #090909;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff;
+}

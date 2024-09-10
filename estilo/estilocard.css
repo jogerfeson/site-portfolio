@@ -1,0 +1,62 @@
+
+
+.header_conteudo_principal_portfolio{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #ffff;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.conteuto_principal_portfolio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+/*configurando os cards do portfolio*/
+
+.card{
+    margin: 5rem;
+    background-color: rgb(230, 230, 230);
+    color: #202020;
+    width: 15rem;
+    height: 30rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: rgba(0,0 ,0, 0.3) 0px 19px 38px,  rgba(0,0 ,0, 0.22) 0px 15px 12px, ;
+}
+.card>h1{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.card>p{
+    font-size: 1rem;
+    padding: 2rem 2rem;
+}
+.card>img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+/*configurando os botões do portfolio*/
+.btnport{
+    font-size: 1rem;
+    padding: 1rem 5rem;
+    border: none;
+    background-color: #202020;
+    color:#ffff;
+    font-weight:600;
+    transition: 0.5 background;
+    cursor: pointer;
+    width: 100%;
+}
+.btnport:hover{
+    transition: 0.5 background;
+    background-color: #131313;
+}
